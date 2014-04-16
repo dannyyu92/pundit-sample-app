@@ -2,10 +2,10 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
-gem 'devise'
-gem 'pundit'
-gem 'bootstrap-sass'
-gem 'haml'
+gem 'devise', '3.2.4'
+gem 'pundit', '0.2.3'
+gem 'bootstrap-sass', '3.1.1.0'
+gem 'haml', '4.0.5'
 
 group :development do
   gem 'better_errors'
