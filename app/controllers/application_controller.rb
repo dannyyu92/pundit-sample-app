@@ -5,7 +5,12 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
 
-
+  # Devise overrides
+=begin
+  def after_sign_in_path_for(user)
+    
+  end
+=end
 
   rescue_from Pundit::NotAuthorizedError, with: :user_not_authorized
 
