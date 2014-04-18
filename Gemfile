@@ -8,6 +8,7 @@ gem 'bootstrap-sass', '3.1.1.0'
 gem 'haml', '4.0.5'
 
 group :development do
+  gem 'sqlite3'
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'quiet_assets'
@@ -18,9 +19,6 @@ group :production do
   gem 'pg'
   gem 'rails_12factor'
 end
-
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
